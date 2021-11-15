@@ -1,0 +1,356 @@
+/*-------------------------------------------------- 1366px ------------------------------------------------------*/
+@media only screen and (min-width: 1366px) {
+	.home-banner img {
+    	width: 80%;
+    }
+}
+
+/*-------------------------------------------------- 1200px ------------------------------------------------------*/
+@media only screen and (max-width: 1200px) {
+	.home-banner h1 {
+    	font-size: 70px;
+	}
+
+	.home-banner > div.banner-image {
+	    padding: 60px 60px;
+	}
+
+	.home-banner img {
+    	width: 100%;
+    	max-width: none;
+	}
+}
+
+/*-------------------------------------------------- 1024px ------------------------------------------------------*/
+@media only screen and (max-width: 1024px) {
+	.home-banner > div.banner-image {
+    	padding: 100px 60px;
+	}
+
+	.home-banner .desc {
+	    line-height: 1.4;
+	}
+
+	.footer-text > div {
+	    display: block;
+	    width: 100%;
+	    margin-bottom: 5px;
+	}
+
+	.footer-text .footer-left {
+		text-align: center;
+	}
+
+	.footer-text .footer-right {
+		text-align: center;
+	}
+
+}
+
+/*-------------------------------------------------- 991px ------------------------------------------------------*/
+@media only screen and (max-width: 991px) {
+	
+	#cookie-law-info-bar {
+		width: 80% !important;
+	}
+
+	.home-banner > div.banner-text {
+	    width: 55%;
+	}
+
+	.home-banner > div.banner-image {
+	    width: 45%;
+	    padding: 85px 30px;
+	}
+
+	.home-banner h1 {
+	    font-size: 55px;
+	}
+
+	.home-banner .desc {
+	    font-size: 13px;
+	}
+
+}
+
+/*-------------------------------------------------- 910px ------------------------------------------------------*/
+@media only screen and (max-width: 910px) {
+	
+	.home-banner .desc {
+	    font-size: 12px;
+	    line-height: 1.2;
+	}
+}
+
+/*-------------------------------------------------- 768px ------------------------------------------------------*/
+@media only screen and (max-width: 768px) {
+
+	.home-banner > div.banner-image-mob {
+	    display: inline-block;
+	    padding: 40px 0;
+	}
+
+	.home-banner > div.banner-image {
+	    display: none;
+	}
+
+	.home-banner > div.banner-text {
+	    width: 100%;
+	    padding: 0px 30px 20px;
+	}
+
+	.home-banner img {
+    	width: 55%;
+	}
+
+	.home-banner h1 {
+	    font-size: 70px;
+	    text-align: center;
+	}
+
+	.home-banner .desc {
+	    font-size: 14px;
+	    line-height: 1.3;
+	    text-align: center;
+	}
+
+	
+	#home-banner-desk {
+	    display: none;
+	}
+
+	#home-banner-tablet {
+	    display: block;
+	}
+
+	#home-banner-mobile {
+	    display: none;
+	}
+
+	.header-wrapper .header-right .navigation {
+		display: none;
+	}
+
+	.header-wrapper .header-right > div.mobile-menu {
+		/*display: block;*/
+	}
+
+	.home-title h1,
+	.page-section h1 {
+		font-size: 72px;
+	}
+
+	.home-title h3,
+	.page-section h3 {
+		font-size: 36px;
+	}
+
+	.home-title div.desc {
+	    line-height: 1.5;
+	}
+
+	.section-wrapper {
+	    padding: 13px 30px 22px;
+	}
+
+	.home-tc .section-wrapper {
+	    padding: 10px 30px;
+	}
+
+	.home-form .section-wrapper {
+	    padding: 25px 30px 40px;
+	}
+
+	.home-form .wpcf7 span input, 
+	.home-form .wpcf7 span textarea {
+    	padding: 8px;
+	}
+
+	.submit-btn-wrapper {
+		text-align: center;
+	}
+
+	.footer-wrapper {
+		padding: 0 30px;
+	}
+
+	.footer-about {
+	    padding: 5px 0;
+	}
+
+	.assoc-wrapper {
+    	padding: 20px 0 15px;
+	}
+
+	.assoc-item:nth-child(7):after {
+	    content: none;
+	}
+
+	.assoc-item img {
+	    height: 34px;
+	    margin-bottom: .3rem;
+	}
+
+	#cookie-law-info-bar {
+		width: 90% !important;
+		bottom: 20% !important;
+	}
+}
+
+/*-------------------------------------------------- 600px ------------------------------------------------------*/
+@media only screen and (max-width: 600px) {
+	
+	.home-banner h1 {
+	    font-size: 65px;
+	}
+
+	.home-banner .desc {
+	    /*font-size: 14px;
+	    line-height: 1.3;*/
+	}
+
+	.home-form .wpcf7 span.wpcf7-form-control-wrap {
+		width: 100%;
+	}
+
+	.home-form .wpcf7 span input, 
+	.home-form .wpcf7 span textarea {
+		width: 100%;
+	}
+
+	.home-form .wpcf7 span input[type=date] {
+		min-width: 100%;
+	}
+
+	.home-form .wpcf7 .wpcf7-response-output {
+		margin-left: 0;
+		margin-right: 0;
+	}
+
+}
+
+/*-------------------------------------------------- 420px ------------------------------------------------------*/
+@media only screen and (max-width: 420px) {
+	.home-banner > div.banner-text {
+	    padding: 0px 20px 20px;
+	}
+
+	.home-banner img {
+    	width: 65%;
+	}
+
+	.home-banner h1 {
+	    font-size: 60px;
+	}
+
+	.home-banner .desc {
+	    font-size: 13px;
+	    line-height: 1.2;
+	}
+
+	#home-banner-desk {
+	    display: none;
+	}
+
+	#home-banner-tablet {
+	    display: none;
+	}
+
+	#home-banner-mobile {
+	    display: block;
+	}
+	
+	.home-title h1,
+	.page-section h1 {
+	    font-size: 60px;
+	}
+
+	.home-title h3,
+	.page-section h3 {
+	    font-size: 31px;
+	}
+
+	.home-title div.desc {
+	    font-size: 13px;
+	    line-height: 1.2;
+	}
+
+	.page-section div.desc {
+	    font-size: 13px;
+	}
+
+	.section-wrapper {
+	    padding: 13px 20px 22px;
+	}
+
+	.home-tc .section-wrapper {
+	    padding: 10px 20px;
+	}
+
+	.home-form .section-wrapper {
+	    padding: 20px 20px 30px;
+	}
+
+	.home-form h2 {
+    	font-size: 40px;
+	}
+
+	.home-form .wpcf7 span.wpcf7-form-control-wrap {
+		height: 40px;
+	}
+
+	.home-form .wpcf7 span.your-story {
+	    height: auto;
+	}
+
+	.home-form .wpcf7 span.tandc, .home-form .wpcf7 span.privacy-cookie {
+	    height: auto;
+	}
+
+	.home-form .wpcf7 span input, 
+	.home-form .wpcf7 span textarea {
+		padding: 6px;
+		font-size: 14px;
+	}
+
+	.home-form .wpcf7 .checkbox-title {
+    	font-size: 14px;
+	}
+
+	.home-form .wpcf7 span.tandc, .home-form .wpcf7 span.privacy-cookie {
+    	font-size: 14px;
+	}
+
+	.home-form .wpcf7 .submit-btn {
+		width: 100%;
+	}
+
+	.footer-wrapper {
+	    padding: 0 20px;
+	}
+
+	.assoc-item img {
+    	height: 30px;
+	}
+}
+
+/*-------------------------------------------------- 390px ------------------------------------------------------*/
+@media only screen and (max-width: 360px) {
+
+	.home-title h1,
+	.page-section h1 {
+	    font-size: 55px;
+	}
+
+}
+
+
+/*-------------------------------------------------- 339px ------------------------------------------------------*/
+@media only screen and (max-width: 339px){
+	.cf7sr-g-recaptcha{
+		-webkit-transform: scale(0.9);
+		-ms-transform: scale(0.9);
+		transform: scale(0.9);
+		margin-left: -11px;
+	}
+}
